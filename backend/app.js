@@ -10,7 +10,7 @@ app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
+app.get("/data", (req, res) => {
   request("https://covid19.saglik.gov.tr/", function (error, response, html) {
     if (!error) {    
       let cities = [];
