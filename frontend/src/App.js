@@ -22,7 +22,7 @@ function App() {
     "https://gist.githubusercontent.com/isagul/2887858e1c759e006e604032b0e31c79/raw/438b8a8d419a5059c07ea5115aa65ca7b3f294cd/turkey.topo.json";
 
   useEffect(() => {
-    handleCaseRatios("https://covid-turkey-case-ratio.herokuapp.com/");
+    handleCaseRatios("https://covid.morenhaber.com/data/");
   }, []);
 
   useEffect(() => {
